@@ -1,0 +1,3 @@
+export default function About({ theme }) {
+  return <section className="page-width"><div className="panel about-panel" style={{ borderColor: theme.border }}><span className="about-mark">Q</span><h1>About QuizPulse</h1><p>QuizPulse is a responsive knowledge arena built with React. It combines a live countdown, streak scoring, audio feedback, lifelines, and saved performance history into one focused quiz loop.</p><div className="about-list">{["Dynamic countdown timer", "Hot streak score multipliers", "Synthesized audio feedback", "50:50 lifeline", "Saved performance history", "Four visual themes"].map((item) => <span key={item}>{item}</span>)}</div></div></section>;
+}
